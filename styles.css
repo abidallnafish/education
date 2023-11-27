@@ -1,0 +1,12 @@
+.card {
+  float: left;
+  height: 370px;
+  width: 50px;
+}
+.card-text{
+    color: orange;
+    font-size: larger;
+}
+.navbar{
+  background: rgba(255, 98, 0, 0.76);
+}
