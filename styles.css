@@ -1,4 +1,7 @@
-.carousel-inner{
+.carousel-inner {
   height: 300px;
   width: auto;
+}
+.copyright{
+  background-color: rgb(192, 192, 192);
 }
