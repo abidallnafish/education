@@ -25,3 +25,7 @@ background-color: red;
 .bt1:hover{
   background-color: #4babf5;
 }
+.custom-navbar-toggler{
+  background-image: url(img/Banner1.png);
+height: 100px;
+}
