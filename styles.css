@@ -2,26 +2,26 @@ body {
   min-height: 75rem;
   padding-top: 5.5rem;
 }
-.active{
+.active {
   color: #fff !important;
   background: #4babf5;
   border-radius: 10px;
 }
-.nav-link{
+.nav-link {
   text-decoration: none;
   color: black;
 }
-.footer-copyright{
+.footer-copyright {
   position: absolute;
   left: 0;
   right: 0;
 }
-.fonty{
-  font-family: 'Poppins', sans-serif !important;
+.fonty {
+  font-family: "Poppins", sans-serif !important;
 }
-.bt1{
-background-color: red;
+.bt1 {
+  background-color: red;
 }
-.bt1:hover{
+.bt1:hover {
   background-color: #4babf5;
 }
