@@ -25,3 +25,96 @@ body {
 .bt1:hover {
   background-color: #4babf5;
 }
+
+.calcu1{
+  min-height: 0rem !important;
+  padding-top: 0rem !important;
+}
+
+/* style for calcu1 */
+.calcu1 {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#calculator {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  background-color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  float: center;
+}
+
+#display {
+  width: calc(100% - 24px);
+  height: 60px;
+  font-size: 24px;
+  text-align: right;
+  padding: 12px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  resize: none;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ccc;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.row {
+  display: flex;
+}
+
+.row button.operator {
+  background-color: #f0f0f0;
+}
+
+.row button.double {
+  width: 50%;
+}
+
+.row button.equal {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.row button.double.equal {
+  width: 100%;
+}
+
+.row button.function {
+  background-color: #f8f9fa;
+}
+
+.row button.double.function {
+  width: 50%;
+}
+
+.row button.clear {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.row button.double.clear {
+  width: 50%;
+}
+
+.row button:hover {
+  background-color: #ddd;
+}
