@@ -118,3 +118,7 @@ button {
 .row button:hover {
   background-color: #ddd;
 }
+
+#loading-container {
+  text-align: center;
+}
