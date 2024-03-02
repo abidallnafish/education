@@ -51,6 +51,12 @@
   </nav><br><br><br>
 
   <h3 class="text-center">2024 Calendar</h3><br>
+  <div id="loading-container">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
 
   <div class="container d-flex justify-content-around">
     <iframe
@@ -67,64 +73,77 @@
           <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3"></i>Education
+                <i class="fas fa-gem me-3"></i><b>Education</b>
               </h6>
-              <p class="justify-content-around">
-                Education refers to the discipline that is concerned with methods of teaching and learning in schools or
+              <p class="text-justify">
+                Education refers to the discipline that is concerned with methods of teaching and learning in schools
+                or
                 school-like environments, as opposed to various nonformal and informal means of socialization.
               </p>
             </div>
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 class="text-uppercase fw-bold mb-4">
-                Products
+                <b>Services</b>
               </h6>
               <p>
-                <a href="#!" class="text-reset">Angular</a>
+                <a href="Syllabus.html" class="text-reset">Syllabus</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">React</a>
+                <a href="Calender.html" class="text-reset">Calender</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Vue</a>
+                <a href="Calculator.html" class="text-reset">Calculator</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Laravel</a>
+                <a href="About.html" class="text-reset">About</a>
               </p>
             </div>
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 class="text-uppercase fw-bold mb-4">
-                Useful links
+                <b>Useful links</b>
               </h6>
               <p>
-                <a href="#!" class="text-reset">Pricing</a>
+                <a href="#!" class="text-reset">Help</a>
               </p>
               <p>
                 <a href="#!" class="text-reset">Settings</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Orders</a>
+                <a href="#!" class="text-reset">Complains</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Help</a>
+                <a href="#!" class="text-reset">Privacy</a>
               </p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Contacts</h6>
+              <h6 class="text-uppercase fw-bold mb-4"><b>Contacts</b></h6>
               <p><i class="fas fa-home me-3"></i>Mirpur Dhaka, BD</p>
               <p>
                 <i class="fas fa-envelope me-3"></i>
                 abidhossain1082007@gmail.com
               </p>
+
+              <section class="mb-4">
+                <a href="https://m.facebook.com/abidallnafish" target="_blank"><img src="img/facebook.png"
+                    style="margin-left: 2.6px;height: auto; width: 50px; padding: 6px;" alt=""></a>
+                <a href="https://sites.google.com/view/education-bd" target="_blank"><img src="img/google-symbol.png"
+                    style="height: auto; width: 50px; padding: 6px;" alt=""></a>
+                <a href="https://youtube.com/@AbidAllNafish?si=Bjbg4lK-X9ePXDaQ" target="_blank"><img
+                    src="img/youtube.png" style="height: auto; width: 60px; padding: 6px;" alt=""></a>
+                <a href="https://www.instagram.com/abid_all_nafish/" target="_blank"><img src="img/instagram.png"
+                    style="height: auto; width: 50px; padding: 6px;" alt=""></a>
+              </section>
             </div>
           </div>
         </div>
       </section>
       <div class="footer-copyright text-center py-3" style="background-color: rgba(0, 0, 0, 0.05);">
         <sup>©</sup> 2024 Copyright
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"><b>Abid All Nafish</b></a>
+        <a class="text-reset fw-bold" href="#!"><b>Abid All Nafish</b></a>
       </div>
     </footer>
   </div>
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -134,6 +153,24 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- ... previous HTML code ... -->
+
+  <script>
+    // JavaScript to hide the loading icon after 2 seconds
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        var loadingContainer = document.getElementById("loading-container");
+        if (loadingContainer) {
+          loadingContainer.style.display = "none";
+        }
+      }, 2000);
+    });
+  </script>
+
 
 </body>
 
